@@ -7,10 +7,9 @@ export default function Layout({children, title, description}) {
     <div className={styles.container}>
 
         <Head>
+            <link rel='icon' href='/favicon.ico'></link>
             <title>{title}</title>
-            <meta name='description'
-            content={description}
-            />
+            <meta name='description'content={description}/>
         </Head>
 
         <nav>
